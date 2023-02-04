@@ -25,7 +25,7 @@ jobs:
 
     - name: Install dependencies
       run: | 
-        # обновление pip
+      # обновление pip
         python -m pip install --upgrade pip 
         
         # установка flake8 и его плагинов
